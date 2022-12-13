@@ -1,0 +1,23 @@
+.header{
+    position: relative;
+    z-index: 100000;
+    width: 100%;
+    ul {
+        list-style-type: none;
+        display: flex;
+        li{
+            display: inline-block;
+            padding:3px 6px;
+            &:first-of-type{
+                margin-left: auto;
+            }
+            &.logout{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            &.logout:hover{
+                color:red;
+            }
+        }
+    }
+}

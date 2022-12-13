@@ -1,0 +1,29 @@
+.Enrollment{
+    margin-top : 150px;
+    margin-right : 30px;
+    text-align: center;
+    .text{
+        
+        font-size: xx-large;
+    }
+    .button{
+        margin-top : 30px;
+        margin-left : 80px;
+        display: block;
+        background-color: green;
+        height: 50px;
+        width: 250px;
+        border-radius: 10px;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: bold;
+        cursor: pointer;
+        color: white;
+        transition: background-color 0.3s;
+        
+        &:hover{
+            background-color: rgb(68, 199, 68);
+        }
+
+    }
+}
